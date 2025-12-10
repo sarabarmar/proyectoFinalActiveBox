@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+header {
+    width: 100%;
+    height: 80vh;
+    color: white;
+    background: linear-gradient(#2b2d4def, #2b2d4def), url(../assets/images/Layer\ 34.png);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 19.3%;
+}
+
+.nav-enlaces a {
+    color: white;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8rem;
+    margin-left: 57px;
+}
+
+hr {
+    width: 61.4%;
+    margin: 0 19.3%;
+    
+}
+
+.seccion-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+.seccion-1-titulo{
+    font-size: 4.1rem;
+    max-width: 1000px;
+    text-align: center;
+    line-height: 120%;
+}
+.seccion-1-parrafo{
+    font-size: 1.4rem;
+    max-width: 920px;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    font-weight: lighter;
+}
+.seccion-1-boton{
+    background-color: #E84546;
+    border: none;
+    color: white;
+    padding: 0.8% 3%;
+    font-size: 0.8rem;
+}
+.seccion-2{
+    padding: 6% 19.3%;
+}
+.seccion-2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5%;
+    row-gap: 20%;
+}
+.seccion-2-easily{
+    text-align: center;
+}
+.easily-titulo{
+    font-size: 0.9rem;
+    margin: 8% 0;
+    font-family: "Raleway", sans-serif;
+    color: #323335;
+}
+.easily-parrafo{
+    text-align: center;
+    font-size: 1rem;
+    color: #717578;
+}
+.seccion-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+.seccion-4{
+    
+}
