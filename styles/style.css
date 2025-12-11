@@ -236,12 +236,13 @@ hr {
 
 .seccion-6 {
     text-align: center;
-    height: 40vh;
+     padding: 6% 19.3% ;
 }
 
 .seccion-6-titulo {
     font-weight: lighter;
     font-family: "Raleway", sans-serif;
+    font-size: 2rem;
 }
 
 .seccion-6-boton {
@@ -256,7 +257,7 @@ hr {
     background-color: #3A3E63;
     color: white;
     text-align: center;
-    height: 30vh;
+    height: 25vh;
 }
 
 .footer-parte-1-grid {
