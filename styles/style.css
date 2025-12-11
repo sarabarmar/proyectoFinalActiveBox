@@ -176,15 +176,8 @@ hr {
 }
 
 .tarejta-1-redes {
-    display: flex;
-    gap: 10px;
-}
 
-.tarejta-1-redes img {
-    padding: 5px 5px;
-    border: 1px solid #EBEBEB;
 }
-
 .seccion-5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -243,13 +236,19 @@ hr {
     font-weight: lighter;
     font-family: "Raleway", sans-serif;
     font-size: 2rem;
+    margin-bottom: 1%;
+}
+.seccion-6-parrafo{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 3%;
 }
 
 .seccion-6-boton {
     background-color: #E84546;
     border: none;
     color: white;
-    padding: 0.8% 3%;
+    padding: 1.5% 9%;
     font-size: 0.8rem;
 }
 
@@ -257,7 +256,7 @@ hr {
     background-color: #3A3E63;
     color: white;
     text-align: center;
-    height: 25vh;
+    padding: 4% 19.3%;
 }
 
 .footer-parte-1-grid {
@@ -265,7 +264,21 @@ hr {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
-
+.location-titulo{
+    font-size: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+.location-parrafo{
+    font-weight: lighter;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.9rem;
+    color: #9397B2;
+}
+.about-parrafo{
+    max-width: 350px;
+}
 .footer-parte-2 {
     height: 10vh;
     background-color: #313455;
@@ -278,7 +291,9 @@ hr {
     font-family: "Raleway", sans-serif;
     line-height: 150%;
 }
-
+.corazon{
+    color: red;
+}
 .texto-blanco {
     color: white;
 }
