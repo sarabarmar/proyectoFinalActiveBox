@@ -122,12 +122,14 @@ hr {
     align-items: center;
     justify-content: center;
 }
-.imagen-rojo-titulo{
+
+.imagen-rojo-titulo {
     font-size: 0.9rem;
     font-weight: 600;
     margin-bottom: 6px;
 }
-.imagen-rojo-subtitulo{
+
+.imagen-rojo-subtitulo {
     font-weight: lighter;
     font-size: 0.8rem;
 }
@@ -175,9 +177,6 @@ hr {
     margin-bottom: 10%;
 }
 
-.tarejta-1-redes {
-
-}
 .seccion-5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -198,23 +197,27 @@ hr {
     justify-content: center;
     padding-left: 10%;
 }
-.texto-titulo{
+
+.texto-titulo {
     font-family: "Cardo", serif;
     font-weight: lighter;
     font-size: 2.5rem;
     max-width: 560px;
 }
-.texto-subtitulo{
+
+.texto-subtitulo {
     font-weight: 400;
     font-size: 1rem;
     margin-top: 3%;
     margin-bottom: 8%;
 }
+
 .seccion-5-puntos {
     display: flex;
     gap: 8px;
     padding-left: 32%;
 }
+
 .punto {
     width: 10px;
     height: 10px;
@@ -229,7 +232,7 @@ hr {
 
 .seccion-6 {
     text-align: center;
-     padding: 6% 19.3% ;
+    padding: 6% 19.3%;
 }
 
 .seccion-6-titulo {
@@ -238,7 +241,8 @@ hr {
     font-size: 2rem;
     margin-bottom: 1%;
 }
-.seccion-6-parrafo{
+
+.seccion-6-parrafo {
     font-size: 0.9rem;
     font-weight: 600;
     margin-bottom: 3%;
@@ -264,21 +268,25 @@ hr {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
-.location-titulo{
+
+.location-titulo {
     font-size: 1rem;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     margin-bottom: 4%;
 }
-.location-parrafo{
+
+.location-parrafo {
     font-weight: lighter;
     font-family: "Raleway", sans-serif;
     font-size: 0.9rem;
     color: #9397B2;
 }
-.about-parrafo{
+
+.about-parrafo {
     max-width: 350px;
 }
+
 .footer-parte-2 {
     height: 10vh;
     background-color: #313455;
@@ -291,9 +299,96 @@ hr {
     font-family: "Raleway", sans-serif;
     line-height: 150%;
 }
-.corazon{
+
+.corazon {
     color: red;
 }
+
 .texto-blanco {
     color: white;
+}
+
+@media (max-width: 1279px) {
+    nav {
+        padding: 3% 15%;
+    }
+
+    .nav-enlaces a {
+        margin-left: 15px;
+    }
+
+    hr {
+        width: 70%;
+        margin: 0 15%;
+    }
+
+    .seccion-1-titulo {
+        font-size: 2.8rem;
+        max-width: 600px;
+    }
+
+    .seccion-1-parrafo {
+        font-size: 1rem;
+        max-width: 650px;
+    }
+
+    .seccion-1-boton {
+        font-size: 0.8rem;
+    }
+
+    .seccion-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10% 15% 22%;
+    }
+
+    .seccion-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 180vh;
+        padding: 0% 15;
+    }
+
+    .seccion-4-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .texto-titulo {
+        font-size: 1.5rem;
+        max-width: 340px;
+    }
+
+    .texto-subtitulo {
+        font-size: 0.7rem;
+    }
+
+    .seccion-5-puntos {
+        padding-left: 40%;
+    }
+
+    .punto {
+        width: 5px;
+        height: 5px;
+    }
+}
+@media (max-width: 920px){
+    
+nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.seccion-4{
+}
+    .seccion-4-grid {
+        grid-template-columns: 35% 35%;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+
+
 }
